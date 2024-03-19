@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors duration-200;
+}
+
+@layer components {
+  .gradient-color {
+    @apply bg-gradient-to-r from-blue-500 to-green-400;
+  }
+}
